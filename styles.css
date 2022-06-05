@@ -1,16 +1,68 @@
-.body{
-    background-color: pink;
+body{
+    background-color: rgb(218, 175, 182);
 }
-.image
-    {
-        margin: 5px;
-    }
+.container{
+    display:flex;
+    padding: auto;
+    background-color: rgb(218, 175, 182);
+    width: 85vw;
+    height: 95vh;
+    margin: auto;
+    text-align: center;
 
-.container
-    {
-    display: flex;
-    }
-.box
-    {
-    border : 1px solid #000;
-    }
+
+}
+.box-1{
+    height: 90%;
+    width: 5vw;
+    min-width: 5vw;
+    background: #fff;
+    margin-top: 20px;
+    float: left;
+}
+#listbox{
+    height: 39px;
+    width: 65px;
+    background-color: rgb(172, 117, 172);
+    text-align: center;
+}
+.box-2{
+    width: 35vw;
+    height: 95vh;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 95vh;
+    max-height: 95vh;
+    background-repeat: no-repeat;
+        /* height: %; */
+    box-shadow: 5px 5px 16px 5px lightgray;
+    background-image: url(./WhatsApp\ Image\ 2022-05-29\ at\ 12.45.13\ PM.jpeg);
+    background-size: 100%;
+    z-index: 1000;
+    position: absolute;
+    margin-left: 5vw;
+}
+
+.box-3{
+    width: 50%;
+    height: 85%;
+    float: right;
+    padding: 5px;
+    overflow: scroll;
+}
+.other{
+    width: 45vw;
+    min-width: 25vw;
+    height: 90%;
+    background-color: white;
+    margin-left: 40vw;
+    margin-top: 20px;
+    overflow: scroll;
+    padding-left: 23px;
+}
+
+.box-list{
+    list-style-type: none;
+    padding-inline-end: 0%;
+    
+}
