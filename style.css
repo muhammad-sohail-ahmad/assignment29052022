@@ -66,3 +66,18 @@ body{
     padding-inline-end: 0%;
     
 }
+.other-display
+{
+    display: flex;
+    justify-content: space-between;
+}
+.box-other-1{
+    width: 192px;
+    height: 100px;
+    background-color: aqua;
+}
+.box-other-2{
+    width: 192px;
+    height: 100px;
+    background-color: black;
+}
