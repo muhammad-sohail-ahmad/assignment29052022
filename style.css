@@ -1,83 +1,114 @@
-body{
-    background-color: rgb(218, 175, 182);
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(223, 189, 194);
 }
-.container{
-    display:flex;
-    padding: auto;
-    background-color: rgb(218, 175, 182);
-    width: 85vw;
-    height: 95vh;
-    margin: auto;
-    text-align: center;
 
-
-}
-.box-1{
-    height: 90%;
+.left {
+    margin: 3% 0% 0% 5%;
+    height: 85vh;
     width: 5vw;
-    min-width: 5vw;
-    background: #fff;
-    margin-top: 20px;
-    float: left;
+    background-color: rgb(171, 109, 109);
 }
-#listbox{
-    height: 39px;
-    width: 65px;
-    background-color: rgb(172, 117, 172);
-    text-align: center;
+
+.ltop {
+    background-color: blueviolet;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.box-2{
-    width: 35vw;
-    height: 95vh;
-    min-width: 35vw;
-    max-width: 35vw;
-    min-height: 95vh;
-    max-height: 95vh;
+
+.ltop svg {
+    display: flex;
+    height: 40%;
+    width: 40%;
+}
+
+.lmain {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.lmain i {
+    font-size: 200%;
+}
+
+.lbuttom {
+    background-color: white;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
+
+.middle {
+    height: 85%;
+    width: 5%;
+    margin-top: 2%;
+}
+
+.image {
+    width: 32vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-repeat: no-repeat;
-        /* height: %; */
-    box-shadow: 5px 5px 16px 5px lightgray;
-    background-image: url(./WhatsApp\ Image\ 2022-05-29\ at\ 12.45.13\ PM.jpeg);
-    background-size: 100%;
+    box-shadow: 5px 5px 30px 15px gray;
+    background-image: url(./pic1.jpeg);
+    /* background-image: url(./pic2.JPG); */
+    background-position: auto;
+    background-size: 100% 100%;
     z-index: 1000;
     position: absolute;
-    margin-left: 5vw;
 }
 
-.box-3{
-    width: 50%;
-    height: 85%;
-    float: right;
-    padding: 5px;
-    overflow: scroll;
+.icon {
+    font-size: 188%;
+    padding-top: 100%;
 }
-.other{
-    width: 45vw;
-    min-width: 25vw;
-    height: 90%;
+
+.right {
+    width: 57vw;
+    height: 82vh;
     background-color: white;
-    margin-left: 40vw;
-    margin-top: 20px;
+    margin: 3% 8% 69% 27%;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 2%;
     overflow: scroll;
-    padding-left: 23px;
 }
 
-.box-list{
-    list-style-type: none;
-    padding-inline-end: 0%;
-    
+.para {
+    font-size: larger;
 }
-.other-display
-{
+
+.mini-box {
+    height: 30%;
     display: flex;
-    justify-content: space-between;
 }
-.box-other-1{
-    width: 192px;
-    height: 100px;
-    background-color: aqua;
+
+.box {
+    width: 50%;
+    /* padding-right: 1%; */
 }
-.box-other-2{
-    width: 192px;
-    height: 100px;
-    background-color: black;
+
+.box i {
+    font-size: xx-large;
+    color: red;
+}
+.box img{
+    color: blue;
 }
